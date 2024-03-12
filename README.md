@@ -53,7 +53,7 @@ Performs a series of sensor operations at a specified index:
 - Initiates an array of function pointers, `operations`, dynamically allocated for storing operations applicable to the type of sensor data received.
 - Utilizes `get_operations` to fill `operations` with pointers based on sensor type (`pmu_sensor` or `tire_sensor`).
 - Fetches operation indices from `operations_idxs` for the target sensor and executes each using the sensor's data.
-- Operations for `tire_sensor` include **pressure status, temperature status, wear level status, and performance score** calculation.
+- Operations for `tire_sensor` include **pressure status, temperature status, wear level status, and performance score** simple data arithmetic calculation.
 - For `pmu_sensor`, operations involve **computing power, regenerating energy, assessing energy usage, and battery health** evaluation.
 
 ## Clear
