@@ -1,0 +1,15 @@
+==22167== Memcheck, a memory error detector
+==22167== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==22167== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==22167== Command: ./../src/main input/sensors_clear_easy_3.dat
+==22167== Parent PID: 22166
+==22167== 
+==22167== 
+==22167== HEAP SUMMARY:
+==22167==     in use at exit: 0 bytes in 0 blocks
+==22167==   total heap usage: 1,670 allocs, 1,670 frees, 87,911 bytes allocated
+==22167== 
+==22167== All heap blocks were freed -- no leaks are possible
+==22167== 
+==22167== For lists of detected and suppressed errors, rerun with: -s
+==22167== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
