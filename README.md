@@ -62,7 +62,7 @@ Processes the `sensors` array to filter and keep only valid sensors:
 
 - Allocates memory for an array to hold valid sensors and sets up a counter for tracking.
 - Iterates over the sensors, checking the `sensor_type` field to categorize as `TIRE` or `PMU`.
-- For valid `TIRE` sensors, it creates a new `tire_sensor` object, transfers data, and updates the entry in `valid_sensors`.
+- For valid `TIRE` sensors, it creates a new `tire_sensor` object, transfers data, and updates the whole given entry in `valid_sensors`.
 - It replicates the `nr_operations` and dynamically allocates and copies `operations_idxs` for each valid sensor.
 - After validating and segregating sensors, the original sensors array memory is cleared.
 - Resizes the `valid_sensors` array to match the count of valid sensors and returns it.
