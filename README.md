@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple sensor data analysis ***mini project***, comprising arrays of `Tire Sensors` and `Power Management Unit Sensors`. It's designed to enhance racing strategies by providing real-time insights into the car's performance and condition. Key features include:
+Simple sensor data analysis ***mini project***, comprising arrays of `Tire Sensors` and `Power Management Unit Sensors`. It's designed to enhance racing strategies by providing real-time insights into the car's performance and condition.
 
 ## Operations
 
@@ -19,7 +19,6 @@ Simple sensor data analysis ***mini project***, comprising arrays of `Tire Senso
 - For *Tire sensors*, it displays **pressure, temperature, wear level, and performance score,** offering insights into tire condition and effectiveness.
 
 ```BASH
-TIRE
 Tire Sensor Pressure: `<pressure>`
 Temperature: `<temperature>` Wear
 Level: `<wear_level>`
@@ -29,7 +28,6 @@ Performance Score: `<computed  score>`/Not Calculated
 - For *PMU sensors*, it shows **voltage, current, power consumption, energy regeneration, and energy storage levels,** highlighting the car's energy efficiency and electrical system performance.
 
 ```BASH
-PMU
 Power Management Unit
 Voltage: `<voltage>`
 Current: `<current>`
