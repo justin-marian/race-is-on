@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple sensor data analysis tool, comprising arrays of `Tire Sensors` and `Power Management Unit Sensors`. It's designed to enhance racing strategies by providing real-time insights into the car's performance and condition. Key features include:
+Simple sensor data analysis ***mini project***, comprising arrays of `Tire Sensors` and `Power Management Unit Sensors`. It's designed to enhance racing strategies by providing real-time insights into the car's performance and condition. Key features include:
 
 ## Operations
 
@@ -10,13 +10,11 @@ Simple sensor data analysis tool, comprising arrays of `Tire Sensors` and `Power
 - **Adaptation:** Enables quick response to changing race conditions.
 - **Maintenance:** Identifies and mitigates potential failures.
 - **Prioritization:** Focuses analysis on critical power management data.
-- **Customization:** Offers 8 tailored operations for in-depth analysis, including pressure, temperature, and wear level for tires, along with power, energy regeneration, usage, and battery health for power units.
+- **Customization:** Offers `8` tailored operations for in-depth analysis, including **pressure, temperature, and wear level for tires, along with power, energy regeneration, usage, and battery health for power units**.
 
 ## Print
 
-**Format Print:**
-
-Concise output of sensor data, it distinguishes between **Tire sensors** and **Power Management Unit (PMU) sensors**, formatting their data distinctly to ensure easy interpretation.
+**Format Print:** concise output of sensor data, it distinguishes between **Tire sensors** and **Power Management Unit (PMU) sensors**, formatting their data distinctly to ensure easy interpretation.
 
 - For *Tire sensors*, it displays **pressure, temperature, wear level, and performance score,** offering insights into tire condition and effectiveness.
 
@@ -42,7 +40,7 @@ Energy Storage: `<energy_storage>`
 
 ## Sort
 
-This function organizes the `sensors` array by `sensor_type`:
+Organizes the `sensors` array by `sensor_type`:
 
 - Counts and categorizes sensors as `PMU` or `TIRE`.
 - Allocates separate temporary arrays for each `sensor_type`.
