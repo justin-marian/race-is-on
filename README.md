@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple sensor data analysis ***mini project***, comprising arrays of `Tire Sensors` and `Power Management Unit Sensors`. It improves racing strategies by providing real-time insights into the car's performance and condition.
+Simple sensor data analysis, comprising arrays of `Tire Sensors` and `Power Management Unit Sensors`. It improves racing strategies by providing real-time insights into the car's performance and condition.
 
 ## Operations
 
